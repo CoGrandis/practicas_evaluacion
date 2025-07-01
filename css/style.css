@@ -52,6 +52,7 @@ a{
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-grow: 2;
     }
     .header__icon{
         display: flex;
