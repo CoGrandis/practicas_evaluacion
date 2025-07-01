@@ -25,7 +25,7 @@ main{
     width: 100%;
     justify-content:first baseline;
     gap: 25px;
-    padding: 10px 0 0 20px ;
+    padding: 10px 0;
 
 }
 a{
@@ -40,12 +40,14 @@ a{
     width: 100%;
     justify-content:first baseline;
     gap: 25px;
-    padding: 10px 0 0 20px ;
+    padding: 10px 0 0 ;
 }
 .top__bar{
     display: flex;
     justify-content: flex-start;
-    gap: 40px;
+    padding: 0  20px;
+    align-items: center;
+    gap: 30px;
     .search-bar{
         display: flex;
         align-items: center;
