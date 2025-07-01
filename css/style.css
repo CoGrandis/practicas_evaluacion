@@ -45,7 +45,7 @@ a{
 .top__bar{
     display: flex;
     justify-content: flex-start;
-    padding: 0  20px;
+    padding: 5px  20px;
     align-items: center;
     gap: 30px;
     .search-bar{
