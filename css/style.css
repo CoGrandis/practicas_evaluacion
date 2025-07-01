@@ -26,8 +26,13 @@ main{
     justify-content:first baseline;
     gap: 25px;
     padding: 10px 0 0 20px ;
-}
 
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
 .header__orders{
     display: flex;
     flex-direction: column;
@@ -205,14 +210,15 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 
 .card__info{
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding: 5%;
     gap :5px;
 }
 
@@ -228,10 +234,25 @@ main{
 }
 .driver-img{
     position: relative;
-    .fa-circle-user{
+    img{
+        width: 176px;
+    }
+    .elipse{
         position: absolute;
-        bottom:0;
-        right: 50px;
-        right: 25%;
+        bottom:-5px;
+        left: 62px;
+        height: 40px;
+        width: 40px;
+        background-color: #EDEDED;
+        border: white 3px solid;
+        border-radius: 50%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .fa-image{
+            color: #616A7D;
+        }
+
     }
 }
